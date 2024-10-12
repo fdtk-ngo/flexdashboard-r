@@ -22,6 +22,12 @@ jobs:
         with:
           r-version: '4.2.0'
 
+      - name: Restore R package cache
+        uses: actions/cache@v3
+        with:
+          path: ${{ github.workspace }}/renv/cache
+          key: ${{ runner.os }}-renv-${{ hashFiles('renv.lock') }}
+
       - name: Install R Dependencies
         uses: r-lib/actions/setup-renv@v2
         with:
