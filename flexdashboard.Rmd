@@ -1,0 +1,44 @@
+---
+title: "Analyse+"
+output: 
+  flexdashboard::flex_dashboard:
+    vertical_layout: fill
+    orientation: rows
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(leaflet)
+library(tidyverse)
+```
+
+## Row {data-height="400"}
+
+### Carte
+
+```{r}
+leaflet() %>% 
+  addTiles() %>% 
+  addMarkers(lat = 15.6, lng = 4.6)
+```
+
+## Row
+
+### Distribution des Sepal.Length en fonction d'espèces
+
+```{r}
+iris %>% 
+  ggplot(aes(x = Species, y = Sepal.Length, fill = Species)) + 
+  geom_boxplot(show.legend = F) + 
+  theme_minimal()
+```
+
+> Il s'agit d'un graphique appelé boîte à moustache. Il permet de comparer plusieurs distributions d'une variable quantitative en fonction d'une variable qualitative.
+
+### Données
+
+```{r}
+library(DT)
+
+datatable(iris)
+```

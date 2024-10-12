@@ -1,0 +1,30 @@
+# Introduction
+
+## Définitions : Tableau de bord
+
+Un tableau de bord est une représentation visuelle des indicateurs clés de performance (KPI) pour une entreprise ou une organisation. Cela permet de fournir en temps opportun une vue d'ensemble des indicateurs importants qui peuvent aider à mesurer l'état d'avancement dans la réalisation des objectifs stratégiques ou des objectifs opérationnels. Généralement, un tableau de bord est constitué de graphiques, de tableaux de données et d'autres visualisations pour aider les utilisateurs à mieux comprendre les données. Le but principal du tableau de bord est de montrer de manière claire et concise les résultats clés et les tendances de l'entreprise, afin de faciliter la prise de décisions rapides et éclairées.
+
+## Types de tableaux de bords
+
+Il existe plusieurs types de tableaux de bord qui peuvent être utilisés en fonction des besoins d'une organisation, mais voici quelques exemples :
+
+1.  Tableau de bord stratégique : Ce type de tableau de bord est utilisé pour surveiller les objectifs à long terme d'une entreprise et pour suivre les progrès dans la réalisation de ces objectifs.
+
+2.  Tableau de bord opérationnel : Ce type de tableau de bord est utilisé pour suivre les activités quotidiennes de l'entreprise, telles que les ventes, les stocks, les délais d'exécution, les taux de conversion, les coûts de production, etc.
+
+3.  Tableau de bord financier : Ce type de tableau de bord est utilisé pour suivre les performances financières de l'entreprise, telles que les revenus, les bénéfices, les dépenses, les ratios financiers, etc.
+
+4.  Tableau de bord des ressources humaines : Ce type de tableau de bord est utilisé pour suivre les performances des employés de l'entreprise, les données de présence, les niveaux de recrutement, le taux de rotation, etc.
+
+En somme, un tableau de bord peut être adapté en fonction des objectifs de l'entreprise et des informations nécessaires pour aider à la prise de décision et à l'amélioration des performances.
+
+## Matériel et logiciel requis
+
+- Ordinateur avec le langage R installé (version 4.2.1 ou supérieure),
+
+- les différents packages seront installés au fur et à mésure de l'évolution de la formation.
+
+
+
+
+

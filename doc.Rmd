@@ -1,0 +1,30 @@
+---
+title: "Untitled"
+author: "Bervelin Lumesa"
+date: "2023-04-05"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Inroduction à Rmarkdown
+
+Le package **Rmarkdown** est un outil très pratique pour la production de documents dynamiques qui intègrent du code R, du texte formaté et des résultats d'analyse en un seul document.
+
+Il permet d'exporter ces documents dans différents formats tels que :
+
+-   *HTML*,
+
+-   *PDF*,
+
+-   *Word.*
+
+Vous pouvez intégrer des graphiques comme suit :
+
+```{r}
+boxplot(Sepal.Length~ Species, data = iris)
+```
+
+Pour plus d'informations sur nous, cliquer ce [lien](https://fdtk.org)

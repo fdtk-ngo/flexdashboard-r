@@ -1,0 +1,18 @@
+{
+  "hash": "8c59217ea4e0d6c533021576f8aabb5c",
+  "result": {
+    "markdown": "# Projets\n\n### MBS-RDC-Dashboard\n\nUtilisé pour l'enquête comportementale liée au paludisme en République Démocratique du Congo en 2021, ce tableau de bord a servi à suivre l'évolution de la collecte de données dans les 15 provinces du pays où la collecte de données s'est déroulée.\n\nPour créer ce tableau de bord, les packages suivants été utilisés :\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(flexdashboard)\nlibrary(haven)\nlibrary(foreign)\nlibrary(leaflet)\nlibrary(tidyverse)\nlibrary(kableExtra)\nlibrary(knitr)\n```\n:::\n\n\n\nVous pouvez télécharger les codes en [cliquant ici](https://github.com/bervelin-lumesa/mbs_drc_dashboard).\n\n![MBS-RDC-Dashboard](images/mbs-dashboard.JPG){fig-align=\"center\"}\n\nLa version en ligne [disponible ici](https://bervelin-lumesa.netlify.app/about/mbs_drc_dashboard.html)\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}

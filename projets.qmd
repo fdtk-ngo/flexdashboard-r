@@ -1,0 +1,23 @@
+# Projets
+
+### MBS-RDC-Dashboard
+
+Utilisé pour l'enquête comportementale liée au paludisme en République Démocratique du Congo en 2021, ce tableau de bord a servi à suivre l'évolution de la collecte de données dans les 15 provinces du pays où la collecte de données s'est déroulée.
+
+Pour créer ce tableau de bord, les packages suivants été utilisés :
+
+```{r eval=FALSE}
+library(flexdashboard)
+library(haven)
+library(foreign)
+library(leaflet)
+library(tidyverse)
+library(kableExtra)
+library(knitr)
+```
+
+Vous pouvez télécharger les codes en [cliquant ici](https://github.com/bervelin-lumesa/mbs_drc_dashboard).
+
+![MBS-RDC-Dashboard](images/mbs-dashboard.JPG){fig-align="center"}
+
+La version en ligne [disponible ici](https://bervelin-lumesa.netlify.app/about/mbs_drc_dashboard.html)

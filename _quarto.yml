@@ -1,0 +1,26 @@
+project:
+  type: book
+
+book:
+  title: "Créer des tableaux de bords avec R & flexdashboard"
+  author: "FDTK"
+  date: "04/03/2023"
+  chapters:
+    - index.qmd
+    - introduction.qmd
+    - introduction-rmarkdown.qmd
+    - creation-dashboard.qmd
+    - partager.qmd
+    - projets.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+

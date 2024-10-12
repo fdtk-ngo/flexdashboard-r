@@ -1,0 +1,43 @@
+# Preface {.unnumbered}
+
+Ce document est un manuel de formation sur la création des tableaux de bords dispensée par [fdtk](#). Il a pour but de fournir aux apprenants un document auquel ils pourront se référer pour avoir plus de détail sur le contenu de la formation.
+
+Il est organisé en 4 chapitres permettant d'aquérrir des compétences en création des tableaux de bords en utilisant le langage R et le package `flexdashboard`. 
+
+## Contenu...
+
+Le premier chapitre donne une introduction au tablaeu de board. Il définit le tableau de bord et en donne les différents types.
+
+Le deuxième porte sur Rmarkdown. Il s'agit d'une introduction au package `Rmarkdown` pour la création des documents combinant du texte et du code. 
+
+Le troisième chapitre plonge dans la création des tableaux de bords. Il commence par montrer différentes dispositions disponibles, des composants et finit en explorant les différents thèmes.
+
+Le quatrième chapitre explore différentes possiblités de partage du tableau de bord.
+
+Le dernier chapitre décrit différents projets sur lesquels les apprenants sont appelés à travailler pour maîtriser les connaissances acquises. Il s'agit des tableaux de bords basés sur des projets réels.
+
+## Ce que vous serez capable de faire à la fin de cette formation
+
+A la fin de cette formation, vous serez capables de :
+
+- connaître les différents composants d'un tableau de bord `flexdashboard`,
+
+- créer des documents Rmarkdown,
+
+- créer des tableaux de bords avec `flexdashboard`,
+
+- partager vos tableaux de bords 
+
+
+## Cible
+
+Cette formation est destinée à toute personne désireuse d'acquérir des compétences en création de tableau de bord avec le langage R.
+
+## Préréquis
+
+-   Connaissance de base en langage R, plus particulièrement du `tidyverse`. Nous vous recommandons nos formations sur la [manipulation](#) et la [visualisation](#) avec R 
+
+## Différentes débouchées
+
+Avec les compétences acquises au cours de cette formation, vous maximiserez vos chances de travailler pour des postes de chargé de suivi-évaluation, gestionnaire de base de données, Analyste de données, Data scientist, Business analyste,...
+
